@@ -14,6 +14,7 @@
 		B8EFB8802ADEB47A0049F961 /* Lab3_memoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFB87F2ADEB47A0049F961 /* Lab3_memoTests.swift */; };
 		B8EFB88A2ADEB47A0049F961 /* Lab3_memoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFB8892ADEB47A0049F961 /* Lab3_memoUITests.swift */; };
 		B8EFB88C2ADEB47A0049F961 /* Lab3_memoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFB88B2ADEB47A0049F961 /* Lab3_memoUITestsLaunchTests.swift */; };
+		B8EFB8992ADEB5240049F961 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFB8982ADEB5240049F961 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		B8EFB8852ADEB47A0049F961 /* Lab3_memoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab3_memoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8EFB8892ADEB47A0049F961 /* Lab3_memoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab3_memoUITests.swift; sourceTree = "<group>"; };
 		B8EFB88B2ADEB47A0049F961 /* Lab3_memoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab3_memoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B8EFB8982ADEB5240049F961 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				B8EFB8702ADEB4790049F961 /* ContentView.swift */,
 				B8EFB8722ADEB47A0049F961 /* Assets.xcassets */,
 				B8EFB8742ADEB47A0049F961 /* Preview Content */,
+				B8EFB8982ADEB5240049F961 /* CardView.swift */,
 			);
 			path = Lab3_memo;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8EFB8712ADEB4790049F961 /* ContentView.swift in Sources */,
+				B8EFB8992ADEB5240049F961 /* CardView.swift in Sources */,
 				B8EFB86F2ADEB4790049F961 /* Lab3_memoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
