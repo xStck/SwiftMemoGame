@@ -1,6 +1,6 @@
 //
 //  ThemeButtonView.swift
-//  Lab3_memo
+//  LabSwiftMemoGameApp
 //
 //  Created by Dawid Nalepa on 17/10/2023.
 //

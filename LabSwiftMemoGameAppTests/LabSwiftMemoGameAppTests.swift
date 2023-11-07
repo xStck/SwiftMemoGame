@@ -1,6 +1,6 @@
 //
-//  Lab3_memoTests.swift
-//  Lab3_memoTests
+//  LabSwiftMemoGameAppTests.swift
+//  LabSwiftMemoGameAppTests
 //
 //  Created by Dawid Nalepa on 17/10/2023.
 //
@@ -8,7 +8,7 @@
 import XCTest
 @testable import Lab3_memo
 
-final class Lab3_memoTests: XCTestCase {
+final class LabSwiftMemoGameAppTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -1,13 +1,13 @@
 //
-//  Lab3_memoUITestsLaunchTests.swift
-//  Lab3_memoUITests
+//  LabSwiftMemoGameAppUITestsLaunchTests.swift
+//  LabSwiftMemoGameAppUITests
 //
 //  Created by Dawid Nalepa on 17/10/2023.
 //
 
 import XCTest
 
-final class Lab3_memoUITestsLaunchTests: XCTestCase {
+final class LabSwiftMemoGameAppUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

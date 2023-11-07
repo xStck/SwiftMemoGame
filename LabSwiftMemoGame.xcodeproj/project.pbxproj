@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B8EFB86F2ADEB4790049F961 /* Lab3_memoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFB86E2ADEB4790049F961 /* Lab3_memoApp.swift */; };
+		B8EFB86F2ADEB4790049F961 /* LabSwiftMemoGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFB86E2ADEB4790049F961 /* LabSwiftMemoGameApp.swift */; };
 		B8EFB8712ADEB4790049F961 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFB8702ADEB4790049F961 /* ContentView.swift */; };
 		B8EFB8732ADEB47A0049F961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8EFB8722ADEB47A0049F961 /* Assets.xcassets */; };
 		B8EFB8762ADEB47A0049F961 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8EFB8752ADEB47A0049F961 /* Preview Assets.xcassets */; };
-		B8EFB8802ADEB47A0049F961 /* Lab3_memoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFB87F2ADEB47A0049F961 /* Lab3_memoTests.swift */; };
-		B8EFB88A2ADEB47A0049F961 /* Lab3_memoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFB8892ADEB47A0049F961 /* Lab3_memoUITests.swift */; };
-		B8EFB88C2ADEB47A0049F961 /* Lab3_memoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFB88B2ADEB47A0049F961 /* Lab3_memoUITestsLaunchTests.swift */; };
+		B8EFB8802ADEB47A0049F961 /* LabSwiftMemoGameAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFB87F2ADEB47A0049F961 /* LabSwiftMemoGameAppTests.swift */; };
+		B8EFB88A2ADEB47A0049F961 /* LabSwiftMemoGameAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFB8892ADEB47A0049F961 /* LabSwiftMemoGameAppUITests.swift */; };
+		B8EFB88C2ADEB47A0049F961 /* LabSwiftMemoGameAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFB88B2ADEB47A0049F961 /* LabSwiftMemoGameAppUITestsLaunchTests.swift */; };
 		B8EFB8992ADEB5240049F961 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFB8982ADEB5240049F961 /* CardView.swift */; };
 		B8F9F6842ADF363F004B7F13 /* ThemeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F9F6832ADF363F004B7F13 /* ThemeButtonView.swift */; };
 /* End PBXBuildFile section */
@@ -36,16 +36,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B8EFB86B2ADEB4790049F961 /* Lab3_memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab3_memo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8EFB86E2ADEB4790049F961 /* Lab3_memoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab3_memoApp.swift; sourceTree = "<group>"; };
+		B8EFB86B2ADEB4790049F961 /* LabSwiftMemoGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabSwiftMemoGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8EFB86E2ADEB4790049F961 /* LabSwiftMemoGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabSwiftMemoGameApp.swift; sourceTree = "<group>"; };
 		B8EFB8702ADEB4790049F961 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B8EFB8722ADEB47A0049F961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8EFB8752ADEB47A0049F961 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B8EFB87B2ADEB47A0049F961 /* Lab3_memoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab3_memoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8EFB87F2ADEB47A0049F961 /* Lab3_memoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab3_memoTests.swift; sourceTree = "<group>"; };
-		B8EFB8852ADEB47A0049F961 /* Lab3_memoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab3_memoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8EFB8892ADEB47A0049F961 /* Lab3_memoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab3_memoUITests.swift; sourceTree = "<group>"; };
-		B8EFB88B2ADEB47A0049F961 /* Lab3_memoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab3_memoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B8EFB87B2ADEB47A0049F961 /* LabSwiftMemoGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabSwiftMemoGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8EFB87F2ADEB47A0049F961 /* LabSwiftMemoGameAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabSwiftMemoGameAppTests.swift; sourceTree = "<group>"; };
+		B8EFB8852ADEB47A0049F961 /* LabSwiftMemoGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabSwiftMemoGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8EFB8892ADEB47A0049F961 /* LabSwiftMemoGameAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabSwiftMemoGameAppUITests.swift; sourceTree = "<group>"; };
+		B8EFB88B2ADEB47A0049F961 /* LabSwiftMemoGameAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabSwiftMemoGameAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B8EFB8982ADEB5240049F961 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		B8F9F6832ADF363F004B7F13 /* ThemeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,9 +78,9 @@
 		B8EFB8622ADEB4790049F961 = {
 			isa = PBXGroup;
 			children = (
-				B8EFB86D2ADEB4790049F961 /* Lab3_memo */,
-				B8EFB87E2ADEB47A0049F961 /* Lab3_memoTests */,
-				B8EFB8882ADEB47A0049F961 /* Lab3_memoUITests */,
+				B8EFB86D2ADEB4790049F961 /* LabSwiftMemoGame */,
+				B8EFB87E2ADEB47A0049F961 /* LabSwiftMemoGameAppTests */,
+				B8EFB8882ADEB47A0049F961 /* LabSwiftMemoGameAppUITests */,
 				B8EFB86C2ADEB4790049F961 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,24 +88,24 @@
 		B8EFB86C2ADEB4790049F961 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B8EFB86B2ADEB4790049F961 /* Lab3_memo.app */,
-				B8EFB87B2ADEB47A0049F961 /* Lab3_memoTests.xctest */,
-				B8EFB8852ADEB47A0049F961 /* Lab3_memoUITests.xctest */,
+				B8EFB86B2ADEB4790049F961 /* LabSwiftMemoGame.app */,
+				B8EFB87B2ADEB47A0049F961 /* LabSwiftMemoGameTests.xctest */,
+				B8EFB8852ADEB47A0049F961 /* LabSwiftMemoGameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B8EFB86D2ADEB4790049F961 /* Lab3_memo */ = {
+		B8EFB86D2ADEB4790049F961 /* LabSwiftMemoGame */ = {
 			isa = PBXGroup;
 			children = (
-				B8EFB86E2ADEB4790049F961 /* Lab3_memoApp.swift */,
+				B8EFB86E2ADEB4790049F961 /* LabSwiftMemoGameApp.swift */,
 				B8EFB8702ADEB4790049F961 /* ContentView.swift */,
 				B8EFB8722ADEB47A0049F961 /* Assets.xcassets */,
 				B8EFB8742ADEB47A0049F961 /* Preview Content */,
 				B8EFB8982ADEB5240049F961 /* CardView.swift */,
 				B8F9F6832ADF363F004B7F13 /* ThemeButtonView.swift */,
 			);
-			path = Lab3_memo;
+			path = LabSwiftMemoGame;
 			sourceTree = "<group>";
 		};
 		B8EFB8742ADEB47A0049F961 /* Preview Content */ = {
@@ -116,29 +116,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B8EFB87E2ADEB47A0049F961 /* Lab3_memoTests */ = {
+		B8EFB87E2ADEB47A0049F961 /* LabSwiftMemoGameAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				B8EFB87F2ADEB47A0049F961 /* Lab3_memoTests.swift */,
+				B8EFB87F2ADEB47A0049F961 /* LabSwiftMemoGameAppTests.swift */,
 			);
-			path = Lab3_memoTests;
+			path = LabSwiftMemoGameAppTests;
 			sourceTree = "<group>";
 		};
-		B8EFB8882ADEB47A0049F961 /* Lab3_memoUITests */ = {
+		B8EFB8882ADEB47A0049F961 /* LabSwiftMemoGameAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B8EFB8892ADEB47A0049F961 /* Lab3_memoUITests.swift */,
-				B8EFB88B2ADEB47A0049F961 /* Lab3_memoUITestsLaunchTests.swift */,
+				B8EFB8892ADEB47A0049F961 /* LabSwiftMemoGameAppUITests.swift */,
+				B8EFB88B2ADEB47A0049F961 /* LabSwiftMemoGameAppUITestsLaunchTests.swift */,
 			);
-			path = Lab3_memoUITests;
+			path = LabSwiftMemoGameAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B8EFB86A2ADEB4790049F961 /* Lab3_memo */ = {
+		B8EFB86A2ADEB4790049F961 /* LabSwiftMemoGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B8EFB88F2ADEB47A0049F961 /* Build configuration list for PBXNativeTarget "Lab3_memo" */;
+			buildConfigurationList = B8EFB88F2ADEB47A0049F961 /* Build configuration list for PBXNativeTarget "LabSwiftMemoGame" */;
 			buildPhases = (
 				B8EFB8672ADEB4790049F961 /* Sources */,
 				B8EFB8682ADEB4790049F961 /* Frameworks */,
@@ -148,14 +148,14 @@
 			);
 			dependencies = (
 			);
-			name = Lab3_memo;
+			name = LabSwiftMemoGame;
 			productName = Lab3_memo;
-			productReference = B8EFB86B2ADEB4790049F961 /* Lab3_memo.app */;
+			productReference = B8EFB86B2ADEB4790049F961 /* LabSwiftMemoGame.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B8EFB87A2ADEB47A0049F961 /* Lab3_memoTests */ = {
+		B8EFB87A2ADEB47A0049F961 /* LabSwiftMemoGameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B8EFB8922ADEB47A0049F961 /* Build configuration list for PBXNativeTarget "Lab3_memoTests" */;
+			buildConfigurationList = B8EFB8922ADEB47A0049F961 /* Build configuration list for PBXNativeTarget "LabSwiftMemoGameTests" */;
 			buildPhases = (
 				B8EFB8772ADEB47A0049F961 /* Sources */,
 				B8EFB8782ADEB47A0049F961 /* Frameworks */,
@@ -166,14 +166,14 @@
 			dependencies = (
 				B8EFB87D2ADEB47A0049F961 /* PBXTargetDependency */,
 			);
-			name = Lab3_memoTests;
+			name = LabSwiftMemoGameTests;
 			productName = Lab3_memoTests;
-			productReference = B8EFB87B2ADEB47A0049F961 /* Lab3_memoTests.xctest */;
+			productReference = B8EFB87B2ADEB47A0049F961 /* LabSwiftMemoGameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B8EFB8842ADEB47A0049F961 /* Lab3_memoUITests */ = {
+		B8EFB8842ADEB47A0049F961 /* LabSwiftMemoGameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B8EFB8952ADEB47A0049F961 /* Build configuration list for PBXNativeTarget "Lab3_memoUITests" */;
+			buildConfigurationList = B8EFB8952ADEB47A0049F961 /* Build configuration list for PBXNativeTarget "LabSwiftMemoGameUITests" */;
 			buildPhases = (
 				B8EFB8812ADEB47A0049F961 /* Sources */,
 				B8EFB8822ADEB47A0049F961 /* Frameworks */,
@@ -184,9 +184,9 @@
 			dependencies = (
 				B8EFB8872ADEB47A0049F961 /* PBXTargetDependency */,
 			);
-			name = Lab3_memoUITests;
+			name = LabSwiftMemoGameUITests;
 			productName = Lab3_memoUITests;
-			productReference = B8EFB8852ADEB47A0049F961 /* Lab3_memoUITests.xctest */;
+			productReference = B8EFB8852ADEB47A0049F961 /* LabSwiftMemoGameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B8EFB8662ADEB4790049F961 /* Build configuration list for PBXProject "Lab3_memo" */;
+			buildConfigurationList = B8EFB8662ADEB4790049F961 /* Build configuration list for PBXProject "LabSwiftMemoGame" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,9 +225,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B8EFB86A2ADEB4790049F961 /* Lab3_memo */,
-				B8EFB87A2ADEB47A0049F961 /* Lab3_memoTests */,
-				B8EFB8842ADEB47A0049F961 /* Lab3_memoUITests */,
+				B8EFB86A2ADEB4790049F961 /* LabSwiftMemoGame */,
+				B8EFB87A2ADEB47A0049F961 /* LabSwiftMemoGameTests */,
+				B8EFB8842ADEB47A0049F961 /* LabSwiftMemoGameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -266,7 +266,7 @@
 				B8EFB8712ADEB4790049F961 /* ContentView.swift in Sources */,
 				B8EFB8992ADEB5240049F961 /* CardView.swift in Sources */,
 				B8F9F6842ADF363F004B7F13 /* ThemeButtonView.swift in Sources */,
-				B8EFB86F2ADEB4790049F961 /* Lab3_memoApp.swift in Sources */,
+				B8EFB86F2ADEB4790049F961 /* LabSwiftMemoGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8EFB8802ADEB47A0049F961 /* Lab3_memoTests.swift in Sources */,
+				B8EFB8802ADEB47A0049F961 /* LabSwiftMemoGameAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +282,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8EFB88C2ADEB47A0049F961 /* Lab3_memoUITestsLaunchTests.swift in Sources */,
-				B8EFB88A2ADEB47A0049F961 /* Lab3_memoUITests.swift in Sources */,
+				B8EFB88C2ADEB47A0049F961 /* LabSwiftMemoGameAppUITestsLaunchTests.swift in Sources */,
+				B8EFB88A2ADEB47A0049F961 /* LabSwiftMemoGameAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,12 +292,12 @@
 /* Begin PBXTargetDependency section */
 		B8EFB87D2ADEB47A0049F961 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B8EFB86A2ADEB4790049F961 /* Lab3_memo */;
+			target = B8EFB86A2ADEB4790049F961 /* LabSwiftMemoGame */;
 			targetProxy = B8EFB87C2ADEB47A0049F961 /* PBXContainerItemProxy */;
 		};
 		B8EFB8872ADEB47A0049F961 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B8EFB86A2ADEB4790049F961 /* Lab3_memo */;
+			target = B8EFB86A2ADEB4790049F961 /* LabSwiftMemoGame */;
 			targetProxy = B8EFB8862ADEB47A0049F961 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -429,7 +429,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Lab3_memo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LabSwiftMemoGame/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -457,7 +457,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Lab3_memo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LabSwiftMemoGame/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -493,7 +493,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab3_memo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lab3_memo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LabSwiftMemoGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LabSwiftMemoGame";
 			};
 			name = Debug;
 		};
@@ -512,7 +512,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab3_memo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lab3_memo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LabSwiftMemoGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LabSwiftMemoGame";
 			};
 			name = Release;
 		};
@@ -553,7 +553,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B8EFB8662ADEB4790049F961 /* Build configuration list for PBXProject "Lab3_memo" */ = {
+		B8EFB8662ADEB4790049F961 /* Build configuration list for PBXProject "LabSwiftMemoGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8EFB88D2ADEB47A0049F961 /* Debug */,
@@ -562,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B8EFB88F2ADEB47A0049F961 /* Build configuration list for PBXNativeTarget "Lab3_memo" */ = {
+		B8EFB88F2ADEB47A0049F961 /* Build configuration list for PBXNativeTarget "LabSwiftMemoGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8EFB8902ADEB47A0049F961 /* Debug */,
@@ -571,7 +571,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B8EFB8922ADEB47A0049F961 /* Build configuration list for PBXNativeTarget "Lab3_memoTests" */ = {
+		B8EFB8922ADEB47A0049F961 /* Build configuration list for PBXNativeTarget "LabSwiftMemoGameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8EFB8932ADEB47A0049F961 /* Debug */,
@@ -580,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B8EFB8952ADEB47A0049F961 /* Build configuration list for PBXNativeTarget "Lab3_memoUITests" */ = {
+		B8EFB8952ADEB47A0049F961 /* Build configuration list for PBXNativeTarget "LabSwiftMemoGameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8EFB8962ADEB47A0049F961 /* Debug */,
