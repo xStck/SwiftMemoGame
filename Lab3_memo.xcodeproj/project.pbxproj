@@ -15,6 +15,7 @@
 		B8EFB88A2ADEB47A0049F961 /* Lab3_memoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFB8892ADEB47A0049F961 /* Lab3_memoUITests.swift */; };
 		B8EFB88C2ADEB47A0049F961 /* Lab3_memoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFB88B2ADEB47A0049F961 /* Lab3_memoUITestsLaunchTests.swift */; };
 		B8EFB8992ADEB5240049F961 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFB8982ADEB5240049F961 /* CardView.swift */; };
+		B8F9F6842ADF363F004B7F13 /* ThemeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F9F6832ADF363F004B7F13 /* ThemeButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		B8EFB8892ADEB47A0049F961 /* Lab3_memoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab3_memoUITests.swift; sourceTree = "<group>"; };
 		B8EFB88B2ADEB47A0049F961 /* Lab3_memoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab3_memoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B8EFB8982ADEB5240049F961 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B8F9F6832ADF363F004B7F13 /* ThemeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				B8EFB8722ADEB47A0049F961 /* Assets.xcassets */,
 				B8EFB8742ADEB47A0049F961 /* Preview Content */,
 				B8EFB8982ADEB5240049F961 /* CardView.swift */,
+				B8F9F6832ADF363F004B7F13 /* ThemeButtonView.swift */,
 			);
 			path = Lab3_memo;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			files = (
 				B8EFB8712ADEB4790049F961 /* ContentView.swift in Sources */,
 				B8EFB8992ADEB5240049F961 /* CardView.swift in Sources */,
+				B8F9F6842ADF363F004B7F13 /* ThemeButtonView.swift in Sources */,
 				B8EFB86F2ADEB4790049F961 /* Lab3_memoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
