@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct CardView: View {
-    let content: String
-    @State var hidden: Bool = true
+    var card: MemoGameModel<String>.Card
+    
+    init(_ card: MemoGameModel<String>.Card){
+        self.card = card
+    }
     
     var body: some View {
         ZStack{
@@ -17,14 +20,15 @@ struct CardView: View {
             Group{
                 base.fill(.white)
                 base.strokeBorder(lineWidth: 2)
-                Text(content).font(.largeTitle).aspectRatio(2/3, contentMode: .fit).frame(width: 40, height: 140)
-            }.opacity(hidden ? 1 : 0)
-            base.opacity(hidden ? 0: 1)
-        }.onTapGesture (perform: {
-            hidden.toggle()})
+                Text(card.content).font(.system(size: 200))
+                    .minimumScaleFactor(0.01)
+                    .aspectRatio(1, contentMode: .fit)
+            }.opacity(card.isFaceUp ? 1 : 0)
+            base.fill().opacity(card.isFaceUp ? 0: 1)
+        }
     }
 }
 
-#Preview {
-    CardView(content: "😀")
-}
+//#Preview {
+//    CardView(content: "😀")
+//}
