@@ -19,21 +19,21 @@ struct ContentView: View {
             }
             Button("Shuffle"){
                 viewModel.shuffle()
-            }
-//            themeButtons
+            }.foregroundColor(viewModel.themeColor)
+            themeButtons
         }
         .padding()
     }
     
-//    var themeButtons: some View {
-//        HStack {
-//            ThemeButtonView(themeName: "Motyw 1", themeImage: "face.smiling", selectedTheme: $selectedTheme, emojis: $emojis)
-//            Spacer()
-//            ThemeButtonView(themeName: "Motyw 2", themeImage: "arrow.2.circlepath.circle", selectedTheme: $selectedTheme, emojis: $emojis)
-//            Spacer()
-//            ThemeButtonView(themeName: "Motyw 3", themeImage: "pawprint.circle", selectedTheme: $selectedTheme, emojis: $emojis)
-//        }
-//    }
+    var themeButtons: some View {
+        HStack {
+            ThemeButtonView(themeName: "Motyw 1", themeImage: "face.smiling", viewModel: viewModel)
+            Spacer()
+            ThemeButtonView(themeName: "Motyw 2", themeImage: "arrow.2.circlepath.circle", viewModel: viewModel)
+            Spacer()
+            ThemeButtonView(themeName: "Motyw 3", themeImage: "pawprint.circle", viewModel: viewModel)
+        }
+    }
     
     var title: some View {
         Text("Memo")
@@ -51,7 +51,7 @@ struct ContentView: View {
                         viewModel.choose(card)
                     }
             }
-        }.foregroundColor(selectedTheme == "Motyw 2" ? .red : selectedTheme == "Motyw 3" ? .green : .blue)
+        }.foregroundColor(viewModel.themeColor)
     }
     
 }

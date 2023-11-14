@@ -29,6 +29,11 @@ struct CardView: View {
     }
 }
 
-//#Preview {
-//    CardView(content: "😀")
-//}
+struct CardView_Previews: PreviewProvider {
+    static var previews: some View {
+        let card = MemoGameModel<String>.Card(id: "1", isFaceUp: true, isMatched: false, content: "😀")
+        CardView(card)
+            .previewLayout(.sizeThatFits)
+            .padding()
+    }
+}

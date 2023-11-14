@@ -9,8 +9,11 @@ import SwiftUI
 
 
 class MyMemoGameViewModel: ObservableObject{
-    private static let emojis = ["🥸","😅","😤","😆","🧐","😶‍🌫️"]
+//    private static let emojis = ["🥸","😅","😤","😆","🧐","😶‍🌫️"]
+    private static var emojis = ["🥸","😅","😤","😆","🧐","😶‍🌫️"]
     @Published private var model = createMemoGameModel()
+    @Published var selectedTheme: String = "Motyw 1"
+
     
     private static func createMemoGameModel() -> MemoGameModel<String>{
         return MemoGameModel<String>(
@@ -34,4 +37,25 @@ class MyMemoGameViewModel: ObservableObject{
     func choose(_ card: MemoGameModel<String>.Card){
         model.choose(card)
     }
+    
+    func changeTheme() {
+            switch selectedTheme {
+            case "Motyw 2":
+                MyMemoGameViewModel.emojis = ["🧛","🕷️", "💀", "🎃", "👻", "🦇", "🕸", "🍬"]
+            case "Motyw 3":
+                MyMemoGameViewModel.emojis = ["🐵", "🐷", "🐮", "🐼", "🐰", "🐱", "🐶", "🐯","🦅","🦉","🐥","🙈","🐈","🐀","🐿️","🦔"]
+            default:
+                MyMemoGameViewModel.emojis = ["🥸","😅","😤","😆","🧐","😶‍🌫️"]
+            }
+        model = MyMemoGameViewModel.createMemoGameModel()
+    }
+    
+    var themeColor: Color {
+            switch selectedTheme {
+            case "Motyw 2": return .red
+            case "Motyw 3": return .green
+            default: return .blue
+            }
+        }
+    
 }

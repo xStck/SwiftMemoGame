@@ -10,13 +10,12 @@ import SwiftUI
 struct ThemeButtonView: View {
     let themeName: String
     let themeImage: String
-    @Binding var selectedTheme: String
-    @Binding var emojis: [String]
+    @ObservedObject var viewModel: MyMemoGameViewModel
     var body: some View {
         Button(action: {
-            selectedTheme = themeName
-            shuffleEmojis()
-            
+            viewModel.selectedTheme = themeName
+            viewModel.changeTheme()
+            viewModel.shuffle()
         }) {
             VStack {
                 Image(systemName: themeImage)
@@ -24,22 +23,12 @@ struct ThemeButtonView: View {
                 Text(themeName)
                     .font(.caption)
             }
-        }.foregroundColor(selectedTheme == "Motyw 2" ? .red : selectedTheme == "Motyw 3" ? .green : .blue)
+        }.foregroundColor(viewModel.themeColor)
     }
     
-    func shuffleEmojis() {
-            switch selectedTheme {
-            case "Motyw 2":
-                emojis = ["🧛","🕷️", "💀", "🎃", "👻", "🦇", "🕸", "🍬"]
-            case "Motyw 3":
-                emojis = ["🐵", "🐷", "🐮", "🐼", "🐰", "🐱", "🐶", "🐯","🦅","🦉","🐥","🙈","🐈","🐀","🐿️","🦔"].shuffled()
-            default:
-                emojis = ["🥸","😅","😤","😆","🧐","😶‍🌫️"].shuffled()
-            }
-        }
 }
 
 #Preview {
-    ThemeButtonView(themeName: "Motyw 1", themeImage: "face.smiling", selectedTheme: .constant("Motyw 1"), emojis: .constant([]))
+    ThemeButtonView(themeName: "Motyw 1", themeImage: "face.smiling", viewModel: MyMemoGameViewModel())
 }
 

@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import Lab3_memo
+@testable import LabSwiftMemoGame
 
 final class LabSwiftMemoGameAppTests: XCTestCase {
 
