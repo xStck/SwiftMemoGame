@@ -9,7 +9,6 @@ import SwiftUI
 
 
 class MyMemoGameViewModel: ObservableObject{
-//    private static let emojis = ["🥸","😅","😤","😆","🧐","😶‍🌫️"]
     private static var emojis = ["🥸","😅","😤","😆","🧐","😶‍🌫️"]
     @Published private var model = createMemoGameModel()
     @Published var selectedTheme: String = "Motyw 1"
