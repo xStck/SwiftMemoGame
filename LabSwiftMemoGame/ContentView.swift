@@ -16,12 +16,28 @@ struct ContentView: View {
             ScrollView{
                 cardDisplay.animation(.default, value: viewModel.cards)
             }
-            Button("Shuffle"){
-                viewModel.shuffle()
-            }.foregroundColor(viewModel.themeColor)
+            HStack{
+                score
+                Spacer()
+                shuffle
+            }.font(.largeTitle)
+            Spacer()
             themeButtons
         }
         .padding()
+    }
+    
+    private var score: some View{
+        Text("Score: \(viewModel.score)")
+            .animation(nil)
+    }
+    
+    private var shuffle: some View{
+        Button("Shuffle"){
+            withAnimation{
+                viewModel.shuffle()
+            }
+        }.foregroundColor(viewModel.themeColor)
     }
     
     var themeButtons: some View {
@@ -46,11 +62,25 @@ struct ContentView: View {
                 CardView(card)
                     .aspectRatio(2/3, contentMode: .fit)
                     .padding(4)
+                    .overlay(FlyingNumber(number: scoreChange(cardId: card.id)))
+                    .zIndex(scoreChange(cardId: card.id) != 0 ? 1 : 0)
                     .onTapGesture {
-                        viewModel.choose(card)
+                        withAnimation{
+                            let scorebeforeChoosing = viewModel.score
+                            viewModel.choose(card)
+                            let scoreChange = viewModel.score - scorebeforeChoosing
+                            lastScoreChange = (scoreChange, card.id)
+                        }
                     }
             }
         }.foregroundColor(viewModel.themeColor)
+    }
+    
+    @State private var lastScoreChange = (0, "")
+    
+    private func scoreChange(cardId: MemoGameModel<String>.Card.ID) -> Int{
+        let (amount, id) = lastScoreChange
+        return cardId == id ? amount : 0
     }
     
 }

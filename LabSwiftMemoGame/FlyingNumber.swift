@@ -8,11 +8,29 @@
 import SwiftUI
 
 struct FlyingNumber: View {
+    let number: Int
+    @State private var offset: CFloat = 0
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        if number != 0{
+            Text(number, format: .number.sign(strategy: .always()))
+                .font(.largeTitle)
+                .foregroundColor(number < 0 ? .red : .blue)
+                .shadow(color: .black, radius: 2, x: 1.5, y: 1.5)
+                .offset(x: 0, y: CGFloat(offset))
+                .opacity(offset != 0 ? 0 : 1)
+                .onAppear{
+                    withAnimation(.easeIn(duration: 1.5)){
+                        offset = number < 0 ? 100 : -100
+                    }
+                }
+                .onDisappear{
+                    offset = 0
+                }
+                
+        }
     }
 }
 
 #Preview {
-    FlyingNumber()
+    FlyingNumber(number: 4)
 }

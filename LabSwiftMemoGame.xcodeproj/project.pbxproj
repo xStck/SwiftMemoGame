@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B8110F632AFA7CBC004CD6B4 /* MemoGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8110F622AFA7CBC004CD6B4 /* MemoGameModel.swift */; };
+		B886BC042B19134100479A6F /* CirclePart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B886BC032B19134100479A6F /* CirclePart.swift */; };
+		B886BC062B191A5F00479A6F /* TransformIntoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B886BC052B191A5F00479A6F /* TransformIntoCard.swift */; };
+		B886BC082B19326200479A6F /* FlyingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B886BC072B19326200479A6F /* FlyingNumber.swift */; };
 		B8871DA12AFBFADB00F53966 /* MemoGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8871DA02AFBFADB00F53966 /* MemoGameViewModel.swift */; };
 		B8EFB86F2ADEB4790049F961 /* LabSwiftMemoGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFB86E2ADEB4790049F961 /* LabSwiftMemoGameApp.swift */; };
 		B8EFB8712ADEB4790049F961 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFB8702ADEB4790049F961 /* ContentView.swift */; };
@@ -39,6 +42,9 @@
 
 /* Begin PBXFileReference section */
 		B8110F622AFA7CBC004CD6B4 /* MemoGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoGameModel.swift; sourceTree = "<group>"; };
+		B886BC032B19134100479A6F /* CirclePart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclePart.swift; sourceTree = "<group>"; };
+		B886BC052B191A5F00479A6F /* TransformIntoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformIntoCard.swift; sourceTree = "<group>"; };
+		B886BC072B19326200479A6F /* FlyingNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingNumber.swift; sourceTree = "<group>"; };
 		B8871DA02AFBFADB00F53966 /* MemoGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoGameViewModel.swift; sourceTree = "<group>"; };
 		B8EFB86B2ADEB4790049F961 /* LabSwiftMemoGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabSwiftMemoGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8EFB86E2ADEB4790049F961 /* LabSwiftMemoGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabSwiftMemoGameApp.swift; sourceTree = "<group>"; };
@@ -110,6 +116,9 @@
 				B8F9F6832ADF363F004B7F13 /* ThemeButtonView.swift */,
 				B8110F622AFA7CBC004CD6B4 /* MemoGameModel.swift */,
 				B8871DA02AFBFADB00F53966 /* MemoGameViewModel.swift */,
+				B886BC032B19134100479A6F /* CirclePart.swift */,
+				B886BC052B191A5F00479A6F /* TransformIntoCard.swift */,
+				B886BC072B19326200479A6F /* FlyingNumber.swift */,
 			);
 			path = LabSwiftMemoGame;
 			sourceTree = "<group>";
@@ -271,6 +280,9 @@
 			files = (
 				B8110F632AFA7CBC004CD6B4 /* MemoGameModel.swift in Sources */,
 				B8EFB8712ADEB4790049F961 /* ContentView.swift in Sources */,
+				B886BC082B19326200479A6F /* FlyingNumber.swift in Sources */,
+				B886BC062B191A5F00479A6F /* TransformIntoCard.swift in Sources */,
+				B886BC042B19134100479A6F /* CirclePart.swift in Sources */,
 				B8871DA12AFBFADB00F53966 /* MemoGameViewModel.swift in Sources */,
 				B8EFB8992ADEB5240049F961 /* CardView.swift in Sources */,
 				B8F9F6842ADF363F004B7F13 /* ThemeButtonView.swift in Sources */,

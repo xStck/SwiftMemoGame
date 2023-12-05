@@ -9,6 +9,7 @@ import Foundation
 
 struct MemoGameModel<CardContent> where CardContent: Equatable{
     private(set) var cards:Array<Card>
+    private(set) var score = 0
     
     init(numberPairsOfCard: Int, cardContentFactory: (Int)-> CardContent){
         cards = []
@@ -20,15 +21,8 @@ struct MemoGameModel<CardContent> where CardContent: Equatable{
     }
     
     var indexOfOneAndOnlyFaceUpCard: Int? {
-        get{
-            let faceUpCardIndices = cards.indices.filter{index in cards[index].isFaceUp}
-            return faceUpCardIndices.count == 1 ? faceUpCardIndices.first : nil
-        }
-        set{
-            return cards.indices.forEach{
-                cards[$0].isFaceUp = (newValue == $0)
-            }
-        }
+        get {cards.indices.filter{index in cards[index].isFaceUp}.oneAndOnly}
+        set{cards.indices.forEach{cards[$0].isFaceUp = (newValue == $0)}}
     }
     
     mutating func choose(_ card: Card){
@@ -38,6 +32,14 @@ struct MemoGameModel<CardContent> where CardContent: Equatable{
                     if cards[chosenIndex].content == cards[potentialMatchedIndex].content{
                         cards[chosenIndex].isMatched=true
                         cards[potentialMatchedIndex].isMatched=true
+                        score += 4
+                    } else{
+                        if cards[chosenIndex].hasBeenSeen{
+                            score -= 1
+                        }
+                        if cards[potentialMatchedIndex].hasBeenSeen{
+                            score -= 1
+                        }
                     }
                 }else {
                     indexOfOneAndOnlyFaceUpCard = chosenIndex
@@ -54,35 +56,22 @@ struct MemoGameModel<CardContent> where CardContent: Equatable{
     
     struct Card: Equatable, Identifiable{
         var id: String
-        var isFaceUp: Bool = false
+        var hasBeenSeen = false
+        var isFaceUp: Bool = false {
+            didSet {
+                if oldValue && !isFaceUp {
+                    hasBeenSeen = true
+                }
+            }
+        }
         var isMatched: Bool = false
         var content: CardContent
     }
     
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//private func index(of card: Card) -> Int?{
-//        for index in cards.indices{
-//            if cards[index].id == card.id{
-//                return index
-//            }
-//        }
-//        return nil
-//    }
+extension Array {
+    var oneAndOnly: Element? {
+        count == 1 ? first : nil
+    }
+}
